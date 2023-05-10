@@ -17,6 +17,7 @@ class Car {
 
     // BEGIN
     @SneakyThrows
+
     public static Car unserialize(String data) {
         ObjectMapper objectMapper = new ObjectMapper();
         return objectMapper.readValue(data, Car.class);
