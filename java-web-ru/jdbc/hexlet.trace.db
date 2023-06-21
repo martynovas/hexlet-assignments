@@ -1,0 +1,8 @@
+2023-06-21 22:32:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT * FROM ARTICLES OFSET ?[*] LIMIT ?"
+Syntax error in SQL statement "SELECT * FROM ARTICLES OFSET ?[*] LIMIT ?"; SQL statement:
+select * from articles ofset ? limit ? [42000-200]
+2023-06-21 22:33:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT * FROM ARTICLES OFFSET ? LIMIT[*] ?"
+Syntax error in SQL statement "SELECT * FROM ARTICLES OFFSET ? LIMIT[*] ?"; SQL statement:
+select * from articles offset ? limit ? [42000-200]
